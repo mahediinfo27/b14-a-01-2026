@@ -122,3 +122,35 @@ header {
     color:#575757;
     font-size: 15px
 }
+.container{
+    text-align: center;
+}
+.pricing-card{
+    display: flex ;
+    gap: 30px;
+   
+}
+.pricing{
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+.pricing-header{
+    text-align: center;
+    padding-bottom: 45px;
+}
+.pricing-item{
+    background-color: #ccd0db;
+    width: 370px;
+    height:445px;
+    padding: 32px;
+     border-radius: 10px;
+}
+
+.pricing-item1{
+    background-color: #394669;
+    width: 370px;
+    height:445px;
+    padding: 32px;
+     border-radius: 10px;
+}
