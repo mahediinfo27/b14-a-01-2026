@@ -1,4 +1,9 @@
-nav{
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     background-color: #ffffff;
@@ -6,23 +11,23 @@ nav{
     padding: 18px 70px;
 }
 
-.logo{
+.logo img {
     width: 120px;
     color: #0d1b2a;
 }
 
-ul{
+ul {
     display: flex;
     list-style: none;
     gap: 20px;
 }
 
-a{
+a {
     text-decoration: none;
     color: #575757;
 }
 
-.common-btn{
+.common-btn {
     background-color: #1d4ed8;
     color: #ffffff;
     padding: 12px 20px;
@@ -30,4 +35,45 @@ a{
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+    
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url('./image/banner.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 750px;
+}
+
+.header-content h1 {
+    font-size: 72px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.header-content p {
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 35px;
+    font-size: 24px;
+}
+
+.hero-btn {
+    margin-top: 50px;
+
 }
