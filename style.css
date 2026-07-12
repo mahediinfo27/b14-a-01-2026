@@ -16,7 +16,7 @@ nav {
     color: #0d1b2a;
 }
 
-ul {
+.nav-item {
     display: flex;
     list-style: none;
     gap: 20px;
@@ -74,7 +74,9 @@ header {
 }
 
 .hero-btn {
+    width: auto;
     margin-top: 50px;
+    padding: 15px 40px;
 
 }
 
@@ -96,61 +98,148 @@ header {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
-.card{
+
+.card {
     background-color: #ffffff;
     border: 2px solid #e5e7eb;
     border-radius: 10px;
 }
-.card img{
+
+.card img {
     width: 100%;
     height: 280px;
     object-fit: cover;
 }
-.card-content{
+
+.card-content {
     padding: 20px;
 }
-.card-content span{
+
+.card-content span {
     color: #1d4ed8;
     font-size: 12px;
     font-weight: bold;
 }
-.card-content h3{
+
+.card-content h3 {
     margin: 10px 0;
     color: #0D1B2A;
 }
-.card-content p{
-    color:#575757;
+
+.card-content p {
+    color: #575757;
     font-size: 15px
 }
-.container{
+
+.container {
     text-align: center;
 }
-.pricing-card{
-    display: flex ;
+
+.pricing-card {
+    display: flex;
     gap: 30px;
-   
+    justify-content: center;
+
 }
-.pricing{
+
+.pricing {
     max-width: 1200px;
-    margin: auto;
+    margin: 80px auto;
     align-items: center;
+
 }
-.pricing-header{
+
+.pricing-header {
     text-align: center;
     padding-bottom: 45px;
 }
-.pricing-item{
-    background-color: #ccd0db;
+
+.pricing-item {
+    background-color: #FFFFFF;
     width: 370px;
-    height:445px;
+    height: 445px;
     padding: 32px;
-     border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid #E5E7EB;
 }
 
-.pricing-item1{
-    background-color: #394669;
+.pricing-item1 {
+    background-color: #0D1B2A;
     width: 370px;
-    height:445px;
+    height: 445px;
     padding: 32px;
-     border-radius: 10px;
+    border-radius: 10px;
+}
+
+.pricing-item1 .price p {
+    color: #1d4ed8;
+    margin-bottom: 10px;
+
+}
+
+.pricing-item1 .price h2 {
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.pricing-item1 li {
+    color: #FFFFFF
+}
+
+.pricing-item1 button {
+    background: #2563EB;
+    color: #FFFFFF;
+    border: none;
+}
+
+.pricing-item2 {
+    background-color: #F8F9FB;
+    width: 370px;
+    height: 445px;
+    padding: 32px;
+    border-radius: 10px;
+}
+
+.pricing-item2 button {
+    background: #F8F9FB;
+    color: #0D1B2A;
+    border: 2px solid #0D1B2A;
+
+}
+
+.price h2 {
+    color: #0D1B2A;
+    font-size: 40px;
+
+}
+
+hr {
+    border: none;
+    border: 1px solid #E5E7EB;
+    margin: 20px 0;
+
+
+}
+
+ul {
+    padding-left: 18px;
+    margin-bottom: 30px;
+}
+
+li {
+    color: #333333;
+    font-size: 16px;
+    line-height: 2;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #2563EB;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    color: #2563EB;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
 }
